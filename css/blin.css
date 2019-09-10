@@ -1,0 +1,230 @@
+body {
+	background: #c95207 url("images/bg.jpg") repeat;
+	font-family: Arial;
+	font-size: 12px;
+	color: #e4e4e4;
+	line-height: 18px;
+	text-shadow: 0 1px 0 rgba(0,0,0,0.75);
+}
+html,body {
+	width: 100%;
+	height: 100%;
+}
+.wrapper {
+	width: 980px;
+	padding: 0 10px;
+	margin: 0 auto;
+	min-height: 100%;
+	position: relative;
+	
+}
+/*Шапка*/
+.header {
+	padding-top: 20px;
+	margin-bottom: 20px;
+}
+
+.headerContent {
+	box-shadow: 0 3px 2px rgba(0,0,0,0.3);
+	-webkit-box-shadow: 0 3px 2px rgba(0,0,0,0.3);
+	-moz-box-shadow: 0 3px 2px rgba(0,0,0,0.3);
+	background-color: #f2f2f2;
+	background-repeat: no-repeat;
+    background-image: -ms-linear-gradient(top, #f2f2f2, #e4e4e4);
+    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#f2f2f2), to(#e4e4e4));
+    background-image: -webkit-linear-gradient(top, #f2f2f2, #e4e4e4);
+    background-image: -o-linear-gradient(top, #f2f2f2, #e4e4e4);
+    background-image: linear-gradient(top, #f2f2f2, #e4e4e4);
+    background-image: -moz-linear-gradient(top, #f2f2f2, #e4e4e4);
+	filter: progid:dximagetransform.microsoft.gradient(startColorstr='#f2f2f2', endColorstr='#e4e4e4', GradientType=0);
+	height: 33px;
+	border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	padding-top: 10px;
+}
+
+.logo {
+	display: inline-block;
+	float: left;
+	font-weight: bold;
+}
+
+.logo a {
+	text-decoration: none;
+	font-size: 24px;
+	text-shadow: 0 1px 0 white;
+	color: #373e47;
+	padding-left: 10px;
+}
+
+.logo a:hover {
+	color: #a45f93;
+}
+
+*:first-child+html .logo a {
+	line-height: normal;
+}
+
+.pink {
+	color: #a45f93;
+}
+
+.logo a:hover .pink {
+	color: #373e47;
+}
+
+.gray {
+	color: #8b95a4;
+	font-size: 18px;
+}
+
+/*Навигация*/
+ul.nav {
+	margin: 0;
+	padding: 3px 0 0 0;
+	overflow: hidden;
+	float: right;
+}
+
+ul.nav li {
+	float: left;
+	list-style: none;
+	padding: 0;
+}
+
+ul.nav li a {
+	font-size: 14px;
+	font-weight: bold;
+	color: white;
+	text-decoration: none;
+	padding: 0 30px;
+	display: block;
+	color: #143567;
+	text-shadow: 0 1px 0 white;
+}
+
+ul.nav li a.active {
+	color: #a45f93;
+}
+
+ul.nav li a:hover {
+	color: #a45f93;
+}
+/*Контент*/
+.content {
+	padding: 10px;
+	border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border: 1px solid #67707d;
+	background-color: #475363;
+	background-color: rgba(87,103,127,0.5);
+	overflow: hidden;
+}
+
+*:first-child+html .content {
+	background-color: #475363;
+}
+/*Левая колонка*/
+.leftCol {
+	float: left;
+	margin-right: 10px;
+	width: 220px;
+}
+
+ul.leftNav {
+	margin: 0 0 20px 0;
+	padding: 0;
+	background-color: #373e47;
+	border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	box-shadow: 0 1px 0 rgba(255,255,255,0.3), inset 0 2px 1px rgba(0,0,0,0.3);
+	-webkit-box-shadow: 0 1px 0 rgba(255,255,255,0.3), inset 0 2px 1px rgba(0,0,0,0.3);
+	-moz-box-shadow: 0 1px 0 rgba(255,255,255,0.3), inset 0 2px 1px rgba(0,0,0,0.3);
+}
+
+ul.leftNav li {
+	list-style: none;
+}
+
+ul.leftNav li a {
+	color: #e4e4e4;
+	text-decoration: none;
+	padding: 8px 10px 8px 30px;
+	display: block;
+	border-top: 1px solid #4c545e;
+	background: url("images/arrow-right.png") 13px 50% no-repeat;
+}
+
+ul.leftNav li:first-child a {
+	border-top: none;
+}
+
+ul.leftNav li a:hover {
+	background-color: #292e35;
+}
+
+ul.leftNav li:first-child a {
+	border-radius: 3px 3px 0 0;
+	-webkit-border-radius: 3px 3px 0 0;
+	-moz-border-radius: 3px 3px 0 0;
+}
+
+ul.leftNav li:last-child a {
+	border-radius: 0 0 3px 3px;
+	-webkit-border-radius: 0 0 3px 3px;
+	-moz-border-radius: 0 0 3px 3px;
+}
+
+.block {
+	margin: 0 0 20px 0;
+	background-color: #373e47;
+	border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	box-shadow: 0 1px 0 rgba(255,255,255,0.3), inset 0 2px 1px rgba(0,0,0,0.3);
+	-webkit-box-shadow: 0 1px 0 rgba(255,255,255,0.3), inset 0 2px 1px rgba(0,0,0,0.3);
+	-moz-box-shadow: 0 1px 0 rgba(255,255,255,0.3), inset 0 2px 1px rgba(0,0,0,0.3);
+}
+
+.block>h3 {
+	padding: 8px 10px 0;
+}
+
+.block p {
+	margin: 0;
+	padding: 10px 10px 0;
+}
+
+.block a.more {
+	padding-bottom: 10px;
+	display: block;
+}
+
+.main {
+	overflow: hidden;
+}
+
+.main img {
+	margin-right: 15px;
+	border: 10px solid #697689;
+	-webkit-transition: all linear 0.2s;
+	-moz-transition: all linear 0.2s;
+	-ms-transition: all linear 0.2s;
+	-o-transition: all linear 0.2s;
+	transition: all linear 0.2s;
+}
+
+.main img:hover {
+	border: 10px solid #a45f93;
+}
+/*Подвал*/
+.footer {
+
+}
+
+.footer p {
+	text-align: center;
+}
