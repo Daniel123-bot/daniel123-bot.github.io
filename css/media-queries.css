@@ -45,7 +45,7 @@
 	
 }
 /*Размер экрана меньше 320px*/
-@media screen and (max-width: 380px) {	
+@media screen and (max-width: 320px) {	
 	.mobile {
 		overflow-x: auto;
 		margin: 0;
@@ -53,7 +53,7 @@
 	}
 	
 	textarea {
-		width: 380px;
+		width: 200px;
 	}
 }
 /*Эластичные изображения*/
